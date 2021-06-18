@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvPorodaO"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Порода" />
+
+    <TextView
+        android:id="@+id/tvDO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Диаметр" />
+
+    <TextView
+        android:id="@+id/tvRO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Разряд высот" />
+
+    <TextView
+        android:id="@+id/tvKatO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Категория древесины" />
+
+    <TextView
+        android:id="@+id/tvVO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Объём" />
+</LinearLayout>

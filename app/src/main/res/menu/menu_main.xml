@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bottomnavigation.MainActivity">
+    <item
+        android:icon="@android:drawable/ic_menu_manage"
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_addInfDel"
+        android:orderInCategory="1"
+        android:title="@string/addInfDel"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_addClearBD"
+        android:orderInCategory="2"
+        android:title="@string/addClearBD"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_addExit"
+        android:orderInCategory="3"
+        android:title="@string/addExit"
+        app:showAsAction="never" />
+
+</menu>

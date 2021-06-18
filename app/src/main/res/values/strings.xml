@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Оценка лесосек</string>
+    <string name="addDel">Добавить расчёт</string>
+    <string name="clearDel">Отчистить таблицу</string>
+    <string name="action_settings">Настройки</string>
+    <string name="addInfDel">Информация о делянках</string>
+    <string name="delete_record">Удалить запись</string>
+    <string name="btnAddR">Добавить запись</string>
+    <string name="btnClearR">Отчистить записи</string>
+    <string name="btnCalcR">Рассчитать</string>
+    <string name="btnAddOT">Добавить</string>
+    <string name="btnClearOT">Отчистить</string>
+    <string name="inform_record">Подробная информация</string>
+    <string name="update_record">Изменить запись</string>
+    <string name="addClearBD">Отчистить БД</string>
+    <string name="addExit">Выход</string>
+</resources>
